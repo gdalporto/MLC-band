@@ -9,7 +9,7 @@ function displayImages(){
             <img src="./media/fair_belting_plus_guitars.jpeg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
         </div>
         <div> 
-            <img src="./media/lund_vestner.png" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
+            <img src="./media/lund_vestner.PNG" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
         </div>
         <div> 
             <img src="./media/fair_buch.jpg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
@@ -18,7 +18,7 @@ function displayImages(){
            <img src="./media/dalporto_lund.jpeg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
         </div>
         <div> 
-            <img src="./media/fair_belting.jpg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
+            <img src="./media/fair_belting.jpeg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
         </div>
         <div> 
             <img src="./media/band_during_lead.jpeg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
@@ -27,7 +27,7 @@ function displayImages(){
             <img src="./media/wagon_wheel.jpg" alt="Picture of the MLC (Midlife Crisis) Band" class = "pic" >
         </div>
         <div> 
-            <img src="./media/full_band.jpg" alt="Picture of the full MLC (Midlife Crisis) Band" class = "pic" >
+            <img src="./media/full_band.jpeg" alt="Picture of the full MLC (Midlife Crisis) Band" class = "pic" >
         </div>
     `;
 }
