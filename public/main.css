@@ -23,12 +23,12 @@ h1 {
   min-height: 500px;
 }
 .shadingContainer {
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.2);
   width:100%;
   height:100%;
   margin-left:auto;
   margin-right:auto;
-  min-height:525px;
+  min-height:750px;
 
 }
 
@@ -101,6 +101,30 @@ h1 {
 
 /* Gigs formatting */
 
+.oneGigContainer {
+  padding: 10px 0px 10px 0px;
+
+}
+.dateColumn {
+  display: inline-block;
+  min-width: 100px;
+  text-align: left;
+}
+.venueColumn {
+  display: inline-block;
+  min-width: 150px;
+  text-align: left;
+}
+.addressColumn {
+  display: inline-block;
+  min-width: 200px;
+  text-align: left;
+}
+
+th {
+  border: 1px solid black;
+}
+
 .gigsList {
   border: 1px solid black;
   background-color: #4CAF50;
@@ -157,6 +181,7 @@ h1 {
 
 
 .signInSignUp {
+  padding-top: 400px;
   text-align: center;
 }
 
@@ -235,7 +260,7 @@ h1 {
   background-color: rgb(181, 12, 12);
   border: none;
   color: white;
-  padding: 5px 10px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

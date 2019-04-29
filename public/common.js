@@ -16,6 +16,8 @@ function displayHeader(status){
             <a class="active" href="/">MLC</a>
             <a href="/pics.html">Pics</a>
             <a href="/videos.html">Videos</a>
+            <a href="/setlist.html">Songs</a>
+            <a href="/bookus.html">Book MLC</a>
             <div class="topnav-right">
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>
@@ -33,6 +35,10 @@ function displayHeader(status){
         return `
         <nav class="topnav" role = "navigation">
             <a class="active" href="/">MLC</a>
+            <a href="/pics.html">Pics</a>
+            <a href="/videos.html">Videos</a>
+            <a href="/setlist.html">Songs</a>
+            <a href="/bookus.html">Book MLC</a>
             <div class="topnav-right">
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>

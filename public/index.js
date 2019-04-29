@@ -25,14 +25,26 @@ function displayHero(){
 }
 
 function displayGigs(){
-    return `
-        <h2 class="gigsList">Join Us at a Gig:</h2>
-        <div class="gigsContainer"
-            <ul>
-                <li>March 1, 2019: SOLD OUT. Behans Irish Bar, 1327 Broaway, Burlingame CA 94010</li>
-                <li>June 7, 2019: Bobby D's. 700 Winslow St, Redwood City, CA 94063</li>
-            </ul>
-        </div>
+    return `    
+    <h2 class="gigsList">Join Us at a Gig:</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Date</th>
+            <th>Venue</th> 
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td class="dateField">March 1, 2019</td>
+            <td class="venueField">Behans Irish Bar</td> 
+            <td class="addressField">1327 Broaway, Burlingame CA 94010</td>
+        </tr>
+        <tr>
+            <td class="dateField">June 7, 2019</td>
+            <td class="venueField">Bobby D's</td> 
+            <td class="addressField">700 Winslow St, Redwood City, CA 94063</td>
+        </tr>
+    </table>
     `;
 }
 
@@ -44,10 +56,23 @@ function displayLandingPage(){
     return `
     <div class="landingPageBody">
         <div class="shadingContainer">
-            <h1 class="headline landingPageCopy">The Midlife Crisis (MLC)</h1>
+            <h1 class="headline landingPageCopy">MLC - The Midlife Crisis</h1>
             <h2 class="subHeadline landingPageCopy">Follow the hottest band in Silicon Valley</h2>
-            <div class="benefits landingPageCopy">
-                <p class="CTA">Subscribe to get up-to-the-minute and exclusive:</p>
+            <div class="signInSignUp">
+                <!--
+                <div class="signIn">
+                    <form class="signInFormJS signInForm" role="form" action="/login.html" method="get">
+                        <button type="submit" class="loginStartButtonJS standardButton">Login</button>
+                    </form>
+                </div>
+                -->
+                <div class="signUp">
+                    <form class="registerFormJS registerForm" role="form" action="/signup.html" method="get">
+                        <button type="submit" class="registerStartButtonJS standardButton">Subscribe To Mailing List</button>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="benefits landingPageCopy">
                 <div class="benefitsContainer">
                     <ul class="benefitsList">
                         <li class="benefit"><img src="icon-event-white.png" class="icon"><span class="benefitCopy">Upcoming Gigs</span></li>
@@ -55,26 +80,12 @@ function displayLandingPage(){
                         <li class="listItem"><img src="icon-pic-white.png" class="icon"><span class="benefitCopy">Pics From Performances</span></li>
                     </ul>
                 </div>
-            </div>
-            <div class="signInSignUp">
-                <div class="signIn">
-                    <form class="signInFormJS signInForm" role="form" action="/login.html" method="get">
-                        <button type="submit" class="loginStartButtonJS standardButton">Login</button>
-                    </form>
-                </div>
-                <div class="signUp">
-                    <form class="registerFormJS registerForm" role="form" action="/signup.html" method="get">
-                        <button type="submit" class="registerStartButtonJS standardButton">Sign Up</button>
-                    </form>
-                </div>
-            </div>
-            <div class="demoCredentials">
-                <p>Demo Credentials:</p>
-                <p>username: me@me.com</p>
-                <p>password: Hello12345</p>
-            </div>
+            </div> -->
         </div>
     </div>
+    <div class='newGigsJS'>
+    </div>
+
     <br>        
     `;
 }
@@ -94,6 +105,7 @@ function startBand(){
                 // if not logged in, then display a subscribe button below upcoming concerts
                 $(".headerJS").html(displayHeader(stat));
                 $(".mainJS").html(displayLandingPage());
+                $(".newGigsJS").html(displayGigs());        
                 
             }  
             // If logged in do not display
