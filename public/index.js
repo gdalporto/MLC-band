@@ -26,7 +26,7 @@ function displayHero(){
 
 function displayGigs(){
     return `    
-    <h2 class="gigsList">Join Us at a Gig:</h2>
+    <h2 class="gigsList">See Us Live</h2>
 
     <table style="width:100%">
         <tr>

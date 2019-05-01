@@ -28,15 +28,16 @@ function displayHeader(status){
 
     else {
         // not authenticated 
-        button1 = "log in";
+        button1 = "Log In";
         button1URL = "/login.html";
-        button2 = "sign up";
+        button2 = "Sign Up";
         button2URL = "/signup.html";
         return `
+
         <nav class="topnav" role = "navigation">
-            <a class="active" href="/">MLC</a>
+            <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="114" height="50"></a>
             <a href="/pics.html">Pics</a>
-            <a href="/videos.html">Videos</a>
+            <a style="vertical-align: top;"  href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
             <a href="/bookus.html">Book MLC</a>
             <div class="topnav-right">

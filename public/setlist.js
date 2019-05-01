@@ -54,7 +54,7 @@ function startPicsPage(){
 
     checkAuthStatus(status, function (stat) {
         $(".headerJS").html(displayHeader(stat));
-        $(".imagesJS").html(setList());
+        $(".mainjs").html(setList());
         $(".logout").on("click", function(event) {
             event.preventDefault();
             logoutUser();

@@ -1,3 +1,14 @@
 .videoWrapper {
-    margin: 20px;
+    background-color: black;
 }
+
+.video {
+    text-align:center;
+    padding:10px;
+
+}
+
+.songTitle {
+    color: white;
+}
+
