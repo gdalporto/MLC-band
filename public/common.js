@@ -13,8 +13,8 @@ function displayHeader(status){
         button2URL = "/logout.html";
         return `
         <nav class="topnav" role = "navigation">
-            <a class="active" href="/">MLC</a>
-            <a href="/pics.html">Pics</a>
+        <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="114" height="50"></a>
+        <a href="/pics.html">Pics</a>
             <a href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
             <a href="/bookus.html">Book MLC</a>

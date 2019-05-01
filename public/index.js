@@ -17,7 +17,6 @@ function displayHooks(){
 
 function displayHero(){
     return `
-        <h1 class="homepageTitle">Welcome to the MidLife Crisis Band</h1>
         <div> 
             <img src="./media/MLC_Hero_Image.jpg" alt="Picture of the MLC (Midlife Crisis) Band" class = "heroImagePic" >
         </div>
