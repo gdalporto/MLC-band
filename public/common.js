@@ -7,17 +7,17 @@ function displayHeader(status){
 
     
     if(status == "authenticated"){
-        button1 = "my account";
+        button1 = "Account";
         button1URL = "/account.html";
-        button2 = "logout";
-        button2URL = "/logout.html";
+        button2 = "Logout";
+        button2URL = "/";
         return `
         <nav class="topnav" role = "navigation">
-        <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="114" height="50"></a>
+        <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="201" height="85"></a>
         <a href="/pics.html">Pics</a>
             <a href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
-            <a href="/bookus.html">Book MLC</a>
+            <a href="/bookus.html">Contact</a>
             <div class="topnav-right">
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>
@@ -35,11 +35,11 @@ function displayHeader(status){
         return `
 
         <nav class="topnav" role = "navigation">
-            <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="114" height="50"></a>
+            <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="201" height="85"></a>
             <a href="/pics.html">Pics</a>
             <a style="vertical-align: top;"  href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
-            <a href="/bookus.html">Book MLC</a>
+            <a href="/bookus.html">Contact</a>
             <div class="topnav-right">
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>

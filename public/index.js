@@ -56,7 +56,7 @@ function displayLandingPage(){
     <div class="landingPageBody">
         <div class="shadingContainer">
             <h1 class="headline landingPageCopy">MLC - The Midlife Crisis</h1>
-            <h2 class="subHeadline landingPageCopy">Follow the hottest band in Silicon Valley</h2>
+            <h2 class="subHeadline landingPageCopy">Next Gig: June 7 @ Bobby D's</h2>
             <div class="signInSignUp">
                 <!--
                 <div class="signIn">
@@ -119,7 +119,7 @@ function startBand(){
 
         })
 
-    $(".headerJS").on("click",".logout" ,function(event) {
+    $(".headerJS").on("click",".Logout" ,function(event) {
         event.preventDefault();
         logoutUser();
     })
