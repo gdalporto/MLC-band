@@ -12,16 +12,19 @@ function displayHeader(status){
         button2 = "Logout";
         button2URL = "/";
         return `
-        <nav class="topnav" role = "navigation">
-        <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="201" height="85"></a>
-        <a href="/pics.html">Pics</a>
+        <nav class="topnav" id="myTopnav" role = "navigation">
+            <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="201" height="85"></a>
+            <a href="/pics.html">Pics</a>
             <a href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
             <a href="/bookus.html">Contact</a>
-            <div class="topnav-right">
+            <!-- <div class="topnav-right"> -->
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>
-            </div>
+            <!-- </div> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>        
         </nav>       
         `    
     }
@@ -34,16 +37,20 @@ function displayHeader(status){
         button2URL = "/signup.html";
         return `
 
-        <nav class="topnav" role = "navigation">
+        <nav class="topnav" id="myTopnav" role = "navigation">
             <a class='logo' href="/"><img border="0" alt="MLC Logo" src="/media/Color-logo-with-background.png" width="201" height="85"></a>
             <a href="/pics.html">Pics</a>
             <a style="vertical-align: top;"  href="/videos.html">Videos</a>
             <a href="/setlist.html">Songs</a>
             <a href="/bookus.html">Contact</a>
-            <div class="topnav-right">
+            <!-- <div class="topnav-right"> -->
                 <a href="${button1URL}">${button1}</a>
                 <a href="${button2URL}" class="${button2}">${button2}</a>
-            </div>
+            <!-- </div> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>        
+
         </nav>                
         `
         };
@@ -113,6 +120,16 @@ function checkAuthStatus(stat, callback = ()=>{}){
         })
     }
 }
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 
 function checkValidations(isValidEmail, userData, callback) {
     var message={
