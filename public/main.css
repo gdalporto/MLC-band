@@ -135,11 +135,6 @@ th {
 }
 
 
-.icon {
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
-}
 
 .benefitCopy{
   vertical-align: super;
@@ -333,6 +328,12 @@ background-color: #ddd;
 color: black;
 }
 
+.topnav a.icon:hover {
+  background-color:black;
+  color: black;
+  }
+  
+
 .topnav a.active {
 background-color: #4CAF50;
 color: white;
@@ -341,6 +342,13 @@ color: white;
 .topnav-right {
 float: right;
 }
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
 
 .topnav .icon {
 display:none;
