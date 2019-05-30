@@ -23,6 +23,13 @@ function displayVideos(){
                 <p class="songTitle">Running Down a Dream</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/hs12p_sMPgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div class="video">
+                <p class="songTitle">Seven Nation Army</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xgcLCyWmoEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+
         </div>
     `;
 }
