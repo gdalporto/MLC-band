@@ -20,7 +20,7 @@ h1 {
   background-size: cover;
   background-position: center;
   min-width: 320px;
-  min-height: 500px;
+  min-height: 300px;
 }
 .shadingContainer {
   background-color: rgba(0,0,0,.2);
@@ -28,7 +28,7 @@ h1 {
   height:100%;
   margin-left:auto;
   margin-right:auto;
-  min-height:750px;
+  min-height:700px;
 
 }
 

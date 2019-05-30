@@ -54,7 +54,6 @@ function displayLandingPage(){
 
     return `
     <div class="landingPageBody">
-        <div class="shadingContainer">
             <h1 class="headline landingPageCopy">MLC - The Midlife Crisis</h1>
             <h2 class="subHeadline landingPageCopy">Next Gig: June 7 @ Bobby D's</h2>
             <div class="signInSignUp">
@@ -80,7 +79,6 @@ function displayLandingPage(){
                     </ul>
                 </div>
             </div> -->
-        </div>
     </div>
     <div class='newGigsJS'>
     </div>
