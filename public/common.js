@@ -23,7 +23,7 @@ function displayHeader(status){
                 <a href="${button2URL}" class="${button2}">${button2}</a>
             <!-- </div> -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+                <img src="/media/hamburger.png" width="30" height="30">
             </a>        
         </nav>       
         `    
@@ -48,8 +48,8 @@ function displayHeader(status){
                 <a href="${button2URL}" class="${button2}">${button2}</a>
             <!-- </div> -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>        
+                <img src="/media/hamburger.png" width="30" height="30">
+            </a>        
 
         </nav>                
         `
