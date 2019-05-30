@@ -54,31 +54,18 @@ function displayLandingPage(){
 
     return `
     <div class="landingPageBody">
-            <h1 class="headline landingPageCopy">MLC - The Midlife Crisis</h1>
-            <h2 class="subHeadline landingPageCopy">Next Gig: June 7 @ Bobby D's</h2>
-            <div class="signInSignUp">
-                <!--
-                <div class="signIn">
-                    <form class="signInFormJS signInForm" role="form" action="/login.html" method="get">
-                        <button type="submit" class="loginStartButtonJS standardButton">Login</button>
-                    </form>
-                </div>
-                -->
-                <div class="signUp">
-                    <form class="registerFormJS registerForm" role="form" action="/signup.html" method="get">
-                        <button type="submit" class="registerStartButtonJS standardButton">Subscribe To Mailing List</button>
-                    </form>
-                </div>
+    <img class="heroImage" src="./media/MLC_Hero_Image.jpg" >
+    <div class="headline">
+        <h1 class="landingPageCopy">MLC - The Midlife Crisis</h1>
+        <h2 class="landingPageCopy">Next Gig: June 7 @ Bobby D's</h2>
+    </div>
+        <div class="signInSignUp">
+            <div class="signUp">
+                <form class="registerFormJS registerForm" role="form" action="/signup.html" method="get">
+                    <button type="submit" class="registerStartButtonJS standardButton">Subscribe To Mailing List</button>
+                </form>
             </div>
-            <!-- <div class="benefits landingPageCopy">
-                <div class="benefitsContainer">
-                    <ul class="benefitsList">
-                        <li class="benefit"><img src="icon-event-white.png" class="icon"><span class="benefitCopy">Upcoming Gigs</span></li>
-                        <li class="listItem"><img src="icon-note-white.png" class="icon"><span class="benefitCopy">New Releases</span></li>
-                        <li class="listItem"><img src="icon-pic-white.png" class="icon"><span class="benefitCopy">Pics From Performances</span></li>
-                    </ul>
-                </div>
-            </div> -->
+        </div>
     </div>
     <div class='newGigsJS'>
     </div>

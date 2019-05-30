@@ -15,27 +15,35 @@ h1 {
 
 
 .landingPageBody {
-  background-image: url("./media/MLC_Hero_Image.jpg");
+  /* background-image: url("./media/MLC_Hero_Image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-width: 320px;
-  min-height: 300px;
-}
-.shadingContainer {
-  background-color: rgba(0,0,0,.2);
-  width:100%;
-  height:100%;
-  margin-left:auto;
-  margin-right:auto;
-  min-height:700px;
-
+  min-height: 300px; */
+  position:relative;
+  margin:-5px;
 }
 
 .landingPageCopy {
   color: white;
   text-align: center;
   margin:0;
+}
+
+.headline {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subHeadline {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 
@@ -50,12 +58,13 @@ h1 {
 }
 
 
-.heroImagePic {
+.heroImage {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right:auto;
-
+ min-width:680px;
+ min-height: 400px;
   
 }
 
@@ -123,12 +132,6 @@ th {
 
 /* benefits formatting */
 
-.benefitsContainer {
-  display: inline-block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 20px;
-}
 
 .CTA {
   margin:0;
@@ -136,30 +139,16 @@ th {
 
 
 
-.benefitCopy{
-  vertical-align: super;
-}
-
-
-.benefitsList {
-  text-align:left;
-  margin: 0;
-  list-style:none;
-}
-
-/* Subscribe formatting */
-.benefits {
-  text-align: center;
-  margin-top:40px;
-}
-
 
 .signInSignUp {
-  padding-top: 400px;
+  /* padding-top: 400px; */
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   text-align: center;
 }
-
-
 
 
 .signIn {
@@ -304,7 +293,7 @@ input {
   background-color: black;
   overflow: hidden;
   margin:0;
-  padding: 20px 0 15px 0;
+  padding: 5px 0 15px 0;
 }
 
 .topnav a {
