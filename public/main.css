@@ -39,12 +39,12 @@ h1 {
   left:100%;
   margin-left:-200%;
   width:100%;
-  min-width:700px;
+  min-width:650px;
 }
 
 .headline {
   position: absolute;
-  top: 70px;
+  top: 75px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
