@@ -43,6 +43,11 @@ function displayGigs(){
             <td class="venueField">Bobby D's</td> 
             <td class="addressField">700 Winslow St, Redwood City, CA 94063</td>
         </tr>
+        <tr>
+            <td class="dateField">September 6, 2019</td>
+            <td class="venueField">The Vinyl Room</td> 
+            <td class="addressField">221 Park Rd, Burlingame, CA 94010</td>
+        </tr>
     </table>
     `;
 }
